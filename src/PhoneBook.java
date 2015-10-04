@@ -8,8 +8,8 @@ public class PhoneBook {
     Number a1=new Number();
         a1.showNumber();
 
-        System.out.println("Выберите необходимое действие:");
-        System.out.println("1 - добавить запись; 2 - удалить.");
+        System.out.println("Р’С‹Р±РµСЂРёС‚Рµ РЅРµРѕР±С…РѕРґРёРјРѕРµ РґРµР№СЃС‚РёРµ:");
+        System.out.println("1 - РґРѕР±Р°РІРёС‚СЊ Р·Р°РїРёСЃСЊ; 2 - СѓРґР°Р»РёС‚СЊ.");
         Scanner in = new Scanner(System.in);
         int a = in.nextInt();
         switch (a) {
@@ -84,7 +84,7 @@ class Number{
 
         return ID;
 
-    }//?????при добавлении if скобка красная
+    }//?????ГЇГ°ГЁ Г¤Г®ГЎГ ГўГ«ГҐГ­ГЁГЁ if Г±ГЄГ®ГЎГЄГ  ГЄГ°Г Г±Г­Г Гї
 
     public void setID(int ID) {
         this.ID = ID;
